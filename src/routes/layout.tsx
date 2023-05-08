@@ -1,4 +1,4 @@
-import { component$, Slot, useStyles$ } from '@builder.io/qwik';
+import { component$, Slot, } from '@builder.io/qwik';
 import { routeLoader$ } from '@builder.io/qwik-city';
 
 export const useServerTimeLoader = routeLoader$(() => {
@@ -9,7 +9,7 @@ export const useServerTimeLoader = routeLoader$(() => {
 
 export default component$(() => {
   return (
-    <div class="bg-stone-100">
+    <div class="bg-stone-50">
       <main>
         <Slot />
       </main>
