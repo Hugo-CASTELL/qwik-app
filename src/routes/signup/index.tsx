@@ -23,7 +23,7 @@ export default component$(() => {
       return;
 
     // Création de l'utilisateur
-    const { data, error } = await supabase.auth.signUp({ email: email, password: "petit océan" });
+    const { data, error } = await supabase.auth.signUp({ email: email, password: "petite océane *" });
 
     console.log(data);
     console.log(error);
