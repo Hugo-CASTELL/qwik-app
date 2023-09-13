@@ -1,4 +1,4 @@
-# Portfolio Qwik App ⚡️
+# Portfolio Qwik App ⚡️ [Aborted project]
 
 I've started this project to create my student portfolio.
 
